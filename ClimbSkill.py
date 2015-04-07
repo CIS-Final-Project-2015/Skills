@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+=======
+>>>>>>> 1ee1bc23eec4e359899f05dc6a753783dd5e5579
 #Climb Skill
 
 import random
@@ -44,9 +48,13 @@ class climbskill(object):
             print("You were not able to use climb")
 
     
+<<<<<<< HEAD
+
+=======
 def main():
     dc=random.randrange(1,41)
     WeGotTheseSkillz=climbskill(dc)
     WeGotTheseSkillz.climb()
     print("You got it!")
 main()
+>>>>>>> 1ee1bc23eec4e359899f05dc6a753783dd5e5579

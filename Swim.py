@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 #Swim Skill
+>>>>>>> 1ee1bc23eec4e359899f05dc6a753783dd5e5579
 import random
 class item(object):
     def __init__(self):
@@ -8,7 +11,11 @@ def Swim_Dcs(water, Dc):
         print("The water is calm and easy to cross.")
         Dc=10
     elif water == "rough":
+<<<<<<< HEAD
+        print("The water is a bit rough but can still be crossed.\n")
+=======
         print("The water is a bit rough but can still be crossed.")
+>>>>>>> 1ee1bc23eec4e359899f05dc6a753783dd5e5579
         Dc=15
     else:
         print("The water is stormy, I wish you luck.")
@@ -40,6 +47,8 @@ class swim_speed(object):
         self.quarter_speed = playerspeed/4
         self.failure=playerspeed*0
 
+<<<<<<< HEAD
+=======
 Dc=0
 waterConditions=["calm","rough","stormy"]
 water=waterConditions[random.randrange(0,3)]
@@ -47,4 +56,5 @@ Swim_Dcs(water, Dc)
 SkillCheck(Dc)
     
 
+>>>>>>> 1ee1bc23eec4e359899f05dc6a753783dd5e5579
 
